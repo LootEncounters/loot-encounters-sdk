@@ -1,0 +1,24 @@
+{
+  "name": "loot-encounters-sdk",
+  "version": "0.0.1",
+  "description": "LootEncounters SDK",
+  "main": "dist/index.cjs",
+  "repository": "https://github.com/LootEncounters/loot-encounters-sdk",
+  "author": "based64.eth <based64.eth@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test jest"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-export-default-from": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.0"
+  },
+  "dependencies": {
+    "ethers": "^5.4.6"
+  }
+}
