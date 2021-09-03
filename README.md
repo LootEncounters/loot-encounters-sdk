@@ -2,6 +2,8 @@
 
 Utility library for Loot Encounters.
 
+> Still WIP!
+
 ## Installation
 
 ```
