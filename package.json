@@ -7,6 +7,7 @@
   "author": "based64.eth <based64.eth@protonmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "webpack --mode production",
     "test": "NODE_ENV=test jest"
   },
   "devDependencies": {
@@ -19,6 +20,9 @@
     "jest": "^27.1.0"
   },
   "dependencies": {
-    "ethers": "^5.4.6"
+    "babel-loader": "^8.2.2",
+    "ethers": "^5.4.6",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
   }
 }
